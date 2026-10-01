@@ -1,0 +1,26 @@
+---
+layout: default
+title: Writing
+nav: blog
+description: Essays and notes by Cole Robertson.
+---
+<article class="page">
+  <h1>Writing</h1>
+  <p class="lede">Essays and research notes. Most are also posted on Substack or LessWrong.</p>
+
+  {% if site.posts.size > 0 %}
+  <ol class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%-d %b %Y' }}</time>
+      <div>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p>No posts yet.</p>
+  {% endif %}
+</article>

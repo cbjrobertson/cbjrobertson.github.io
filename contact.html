@@ -1,0 +1,28 @@
+---
+layout: default
+title: Contact
+nav: contact
+description: Send Cole Robertson a message.
+---
+<article class="page narrow">
+  <h1>Contact</h1>
+  <p class="lede">Send me a message about research, collaboration, or anything else, and I&rsquo;ll reply by email.</p>
+
+  <form class="contact" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST" data-contact-form>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" autocomplete="name" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="7" required></textarea>
+
+    <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="hidden" name="_subject" value="Message from your website">
+
+    <button type="submit">Send message</button>
+    <p class="form-status" role="status" aria-live="polite"></p>
+  </form>
+</article>
+<script src="{{ '/assets/js/contact.js' | relative_url }}" defer></script>

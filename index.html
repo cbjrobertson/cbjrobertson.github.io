@@ -1,1 +1,23 @@
-Hello world
+---
+layout: default
+---
+<section class="intro">
+  <figure class="portrait">
+    <img src="{{ '/assets/img/cole-robertson.jpg' | relative_url }}" alt="Cole Robertson" width="868" height="900">
+  </figure>
+  <div class="intro-text">
+    <h1>Cognitive scientist studying reasoning and representation in human and machine minds.</h1>
+    <div class="prose">
+      <p>My work adapts methods from cognitive neuroscience &mdash; controlled experiment, functional localization, and targeted ablation &mdash; to ask what AI systems actually represent, and why they fail when they do. Recent work found that frontier language models track the right variables in mechanical-reasoning problems but lean on a counting heuristic, and fail when success requires representing how a system is connected.</p>
+      <p>I am now extending this programme to multi-agent safety: detecting collective goal drift in populations of AI agents, and asking how training environments can select for prosocial behavior.</p>
+      <p>I trained in the humanities and evolutionary anthropology (MSc, Oxford), then in cognitive science (PhD, Radboud), and was a postdoctoral researcher at Emory University, where I remain a visiting researcher. Along the way I co-founded two applied-AI companies, <a href="{{ '/companies/' | relative_url }}">Texture AI and Ogma Therapy</a>; Ogma was acquired by Saltroad in 2026. I live in Oxford.</p>
+    </div>
+    <ul class="actions">
+      <li><a class="button" href="{{ site.cv_file | relative_url }}">Download CV (PDF)</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Get in touch</a></li>
+      <li><a href="{{ site.links.scholar }}">Google Scholar</a></li>
+      <li><a href="{{ site.links.github }}">GitHub</a></li>
+      <li><a href="{{ site.links.linkedin }}">LinkedIn</a></li>
+    </ul>
+  </div>
+</section>

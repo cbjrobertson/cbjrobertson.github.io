@@ -1,0 +1,54 @@
+---
+layout: default
+title: Research
+nav: research
+description: Research on world models in language models, multi-agent safety, language and decision-making, and explainable AI for clinical speech.
+---
+<article class="page">
+  <h1>Research</h1>
+  <p class="lede">I use the experimental toolkit of cognitive science to study how minds, human and artificial, represent the world and act on it.</p>
+
+  <section class="themes">
+    <div class="theme">
+      <h2>World models in large language models</h2>
+      <p>Do language models reason over internal models of the world, or over statistical associations? With Philip Wolff at Emory, I adapted mental-models paradigms from cognitive science to test this, using 810 novel pulley-system problems kept off the public web so that no model could have seen them. Four frontier models tracked the causally relevant variables but estimated mechanical advantage by counting pulleys, and fell to chance when success required representing how a system is connected (<a href="https://arxiv.org/abs/2507.15521">arXiv:2507.15521</a>). Current work uses functional localization and targeted ablation to find the representations behind this behavior in open-weight models.</p>
+    </div>
+    <div class="theme">
+      <h2>Multi-agent safety</h2>
+      <p>With Soumya Banerjee at the University of York, I am developing work on emergent goals in populations of AI agents: whether agents form unspecified subgoals when they transfer solutions to new environments, and whether populations of narrowly tasked agents drift toward a shared objective nobody set. This work is the subject of a proposal now under review with Schmidt Sciences. A related project asks whether the conditions that produced prosocial behavior in human evolution can be recreated in the training environments of artificial agents.</p>
+    </div>
+    <div class="theme">
+      <h2>Language, cognition, and decision-making</h2>
+      <p>My doctoral work, supervised by Robin Dunbar, Asifa Majid, and Se&aacute;n Roberts, asked whether the way a language talks about the future shapes how its speakers value the future. Experiments in English and Dutch showed that low-certainty modal verbs, not future tenses, increase psychological discounting (<em>Cognitive Science</em>, 2023; <em>Cognition</em>, 2026). The full thesis is <a href="{{ '/thesis/' | relative_url }}">available here</a>.</p>
+    </div>
+    <div class="theme">
+      <h2>Explainable AI for clinical speech</h2>
+      <p>A fine-tuned transformer predicted amyloid status in primary progressive aphasia from short samples of connected speech with 92% accuracy, ten points above prior work, and explanation models surfaced candidate linguistic markers of the pathology (<em>npj Dementia</em>, 2026). At Ogma Therapy I built phonetic speech recognition for children with speech and language disorders.</p>
+    </div>
+  </section>
+
+  <section class="pubs" id="publications">
+    <h2>Publications</h2>
+
+    <h3>In preparation</h3>
+    <ol class="refs">
+      {% for p in site.data.publications.in_prep %}
+      <li><span class="year"></span><span class="ref">{{ p.authors }} {{ p.title }}</span></li>
+      {% endfor %}
+    </ol>
+
+    <h3>Published</h3>
+    <ol class="refs">
+      {% for p in site.data.publications.published %}
+      <li><span class="year">{{ p.year }}</span><span class="ref">{{ p.authors }} ({{ p.year }}). {{ p.title }} {{ p.venue }}{% if p.link %} <a href="{{ p.link }}">{{ p.link_label | default: p.link }}</a>{% endif %}</span></li>
+      {% endfor %}
+    </ol>
+
+    <h3>Talks and presentations</h3>
+    <ol class="refs">
+      {% for p in site.data.publications.talks %}
+      <li><span class="year">{{ p.year }}</span><span class="ref">{{ p.authors }} ({{ p.year }}). {{ p.title }} {{ p.venue }}</span></li>
+      {% endfor %}
+    </ol>
+  </section>
+</article>

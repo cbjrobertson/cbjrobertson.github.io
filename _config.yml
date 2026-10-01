@@ -1,0 +1,36 @@
+# Site settings ---------------------------------------------------------------
+title: Cole Robertson
+description: >-
+  Cognitive scientist and AI researcher studying reasoning, representation,
+  and goal-directed behavior in human and machine minds.
+author: Cole Robertson
+
+# For a user site hosted at https://cbjrobertson.github.io leave baseurl empty.
+# If you host it as a project repo instead (https://cbjrobertson.github.io/site),
+# set baseurl: "/site".
+url: "https://cbjrobertson.github.io"
+baseurl: ""
+
+# Contact form: paste the ID from your Formspree form (the part after /f/).
+formspree_id: "YOUR_FORM_ID"
+
+# Blog: set to true once you have written your first post (see README.md).
+show_blog: false
+
+cv_file: /assets/cv/Robertson_CV.pdf
+
+links:
+  scholar: https://scholar.google.com/citations?user=6n5FcbEAAAAJ&hl=en
+  github: https://github.com/cbjrobertson
+  linkedin: https://www.linkedin.com/in/robertson-cole
+
+# Build settings --------------------------------------------------------------
+markdown: kramdown
+plugins:
+  - jekyll-feed
+permalink: /blog/:year/:month/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

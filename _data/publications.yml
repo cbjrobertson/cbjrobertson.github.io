@@ -1,0 +1,113 @@
+# Publications, newest first. Each entry is rendered as an APA-style reference.
+# Fields: authors, year, title, venue (may contain <em>), link (optional),
+# link_label (optional; defaults to the link itself).
+
+in_prep:
+  - authors: "<b>Robertson, C.</b>, &amp; Wolff, P."
+    title: "Functional localization of emergent world-model reasoning in frontier large language models."
+  - authors: "<b>Robertson, C.</b>, &amp; Dunbar, R. I. M."
+    title: "Linguistic recursion and the depth of embedded theory of mind in humans and large language models."
+  - authors: "<b>Robertson, C.</b>"
+    title: "Ecologies of human&ndash;machine interdependence: Selecting for cross-boundary mutualism in multi-agent systems."
+  - authors: "<b>Robertson, C.</b>, Tomanek, K., &amp; Hain, T."
+    title: "A novel transfer-learning approach for connectionist temporal classification to estimate goodness of pronunciation in language-impaired children."
+
+published:
+  - authors: "<b>Robertson, C.</b>, Hochberg, D., Quimby, M., Wolff, P., Dickerson, B. C., &amp; Rezaii, N."
+    year: 2026
+    title: "Predicting amyloid status in primary progressive aphasia using explainable artificial intelligence."
+    venue: "<em>npj Dementia, 2</em>, Article 41."
+    link: https://doi.org/10.1038/s44400-026-00092-w
+  - authors: "<b>Robertson, C.</b>, Roberts, S. G., Majid, A., Lu, T., Wolff, P., &amp; Dunbar, R. I. M."
+    year: 2026
+    title: "Low-certainty modals not future tenses cause increased psychological discounting in English relative to Dutch."
+    venue: "<em>Cognition, 267</em>, Article 106338."
+    link: https://doi.org/10.1016/j.cognition.2025.106338
+  - authors: "<b>Robertson, C.</b>, &amp; Wolff, P."
+    year: 2025
+    title: "LLM world models are mental: Output layer evidence of brittle world model use in LLM mechanical reasoning."
+    venue: "In <em>Proceedings of the Superintelligence Conference (SiC)</em>."
+    link: https://arxiv.org/abs/2507.15521
+    link_label: "Full paper: arXiv:2507.15521"
+  - authors: "<b>Robertson, C.</b>, Roberts, S. G., Majid, A., &amp; Dunbar, R. I. M."
+    year: 2025
+    title: "Language and economic behaviour: Future tense use causes less not more temporal discounting."
+    venue: "<em>PLOS ONE, 20</em>(5), e0317422."
+    link: https://doi.org/10.1371/journal.pone.0317422
+  - authors: "<b>Robertson, C.</b>, &amp; Roberts, S. G."
+    year: 2023
+    title: "Not when but whether: Modality and future time reference in English and Dutch."
+    venue: "<em>Cognitive Science, 47</em>(1), e13224."
+    link: https://doi.org/10.1111/cogs.13224
+  - authors: "<b>Robertson, C.</b>, Carney, J., &amp; Trudell, S."
+    year: 2023
+    title: "Language about the future on social media as a novel marker of anxiety and depression: A big-data and experimental analysis."
+    venue: "<em>Current Research in Behavioral Sciences, 4</em>, 100104."
+    link: https://doi.org/10.1016/j.crbeha.2023.100104
+  - authors: "Carney, J., &amp; <b>Robertson, C.</b>"
+    year: 2022
+    title: "Five studies evaluating the impact on mental health and mood of recalling, reading, and discussing fiction."
+    venue: "<em>PLOS ONE, 17</em>(4), e0266323."
+    link: https://doi.org/10.1371/journal.pone.0266323
+  - authors: "Gotti, G., Roberts, S. G., Fasan, M., &amp; <b>Robertson, C.</b>"
+    year: 2021
+    title: "Language in economics and accounting research: The role of linguistic history."
+    venue: "<em>The International Journal of Accounting, 56</em>(3), 2150015."
+    link: https://doi.org/10.1142/S1094406021500153
+  - authors: "<b>Robertson, C.</b>"
+    year: 2021
+    title: "<em>The future is a thing of possibility: Cross-linguistic differences in modal future time reference affect (risky) intertemporal decisions.</em>"
+    venue: "Oxford: Holywell Press Limited."
+    link: /thesis/
+    link_label: "Thesis page and PDF"
+  - authors: "Carney, J., <b>Robertson, C.</b>, &amp; D&aacute;vid-Barrett, T."
+    year: 2019
+    title: "Fictional narrative as a variational Bayesian method for estimating social dispositions in large groups."
+    venue: "<em>Journal of Mathematical Psychology, 93</em>, 102279."
+    link: https://doi.org/10.1016/j.jmp.2019.102279
+  - authors: "Carney, J., &amp; <b>Robertson, C.</b>"
+    year: 2018
+    title: "People searching for meaning in their lives find literature more engaging."
+    venue: "<em>Review of General Psychology, 22</em>(2), 199&ndash;209."
+    link: https://doi.org/10.1037/gpr0000134
+  - authors: "Dunbar, R. I. M., MacCarron, P., &amp; <b>Robertson, C.</b>"
+    year: 2018
+    title: "Trade-off between fertility and predation risk drives a geometric sequence in the pattern of group sizes in baboons."
+    venue: "<em>Biology Letters, 14</em>(3), 20170700."
+    link: https://doi.org/10.1098/rsbl.2017.0700
+  - authors: "<b>Robertson, C.</b>, Tarr, B., Kempnich, M., &amp; Dunbar, R."
+    year: 2017
+    title: "Rapid partner switching may facilitate increased broadcast group size in dance compared with conversation groups."
+    venue: "<em>Ethology, 123</em>(10), 736&ndash;747."
+    link: https://doi.org/10.1111/eth.12642
+  - authors: "Dunbar, R. I. M., Launay, J., Wlodarski, R., <b>Robertson, C.</b>, Pearce, E., Carney, J., &hellip;"
+    year: 2017
+    title: "Functional benefits of (modest) alcohol consumption."
+    venue: "<em>Adaptive Human Behavior and Physiology, 3</em>(2), 118&ndash;133."
+    link: https://doi.org/10.1007/s40750-016-0058-4
+  - authors: "Dunbar, R., Launay, J., Pearce, E., Wlodarski, R., Carney, J., MacCarron, P., <b>Robertson, C.</b>"
+    year: 2017
+    title: "<em>Friends on tap: The role of pubs at the heart of the community.</em>"
+    venue: "St. Albans, UK: Campaign for Real Ale."
+
+talks:
+  - authors: "<b>Robertson, C.</b>, &amp; Wolff, P."
+    year: 2025
+    title: "Cognitive-science approaches to evaluating mechanical reasoning in LLMs: Output layer evidence of shallow world-model use [Accepted talk]."
+    venue: "<em>Superintelligence Conference (SiC)</em>."
+  - authors: "<b>Robertson, C.</b>, &amp; Wolff, P."
+    year: 2025
+    title: "LLMs have &ldquo;mental&rdquo; models: Latent world models in LLM network weights can be inferred from output layer inference [Accepted poster]."
+    venue: "<em>Cognitive Science</em>."
+  - authors: "<b>Robertson, C.</b>"
+    year: 2024
+    title: "How would industry like to engage with universities to develop AI [Panel discussion]."
+    venue: "<em>Centre for Human-Inspired AI, University of Cambridge</em>."
+  - authors: "<b>Robertson, C.</b>"
+    year: 2023
+    title: "Using cognitive science methods to probe latent representations in large language models."
+    venue: "<em>Working paper series, Emory University</em>."
+  - authors: "<b>Robertson, C.</b>"
+    year: 2020
+    title: "Not when but if: Probability not time determines cross-linguistically driven differences in psychological discounting."
+    venue: "<em>Cognitive Linguistics</em>."
