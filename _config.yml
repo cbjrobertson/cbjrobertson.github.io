@@ -5,10 +5,10 @@ description: >-
   and goal-directed behavior in human and machine minds.
 author: Cole Robertson
 
-# For a user site hosted at https://cbjrobertson.github.io leave baseurl empty.
+# Custom domain (set in GitHub Settings -> Pages). Leave baseurl empty.
 # If you host it as a project repo instead (https://cbjrobertson.github.io/site),
 # set baseurl: "/site".
-url: "https://cbjrobertson.github.io"
+url: "https://www.cole-robertson.com"
 baseurl: ""
 
 # Contact form: paste the ID from your Formspree form (the part after /f/).

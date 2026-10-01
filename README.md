@@ -12,7 +12,7 @@ git commit -m "Describe the change"
 git push
 ```
 
-GitHub Pages rebuilds the site from the `master` branch within a minute or two (check *Settings → Pages* if it doesn't). `thesis.pdf` stays at the root so that https://cbjrobertson.github.io/thesis.pdf keeps working; the thesis page lives at `/thesis/`, the address printed in the thesis itself.
+GitHub Pages rebuilds the site from the `master` branch within a minute or two (check *Settings → Pages* if it doesn't). `thesis.pdf` stays at the root so that /thesis.pdf keeps working (old cbjrobertson.github.io links redirect to the custom domain); the thesis page lives at `/thesis/`, the address printed in the thesis itself.
 
 ## Set up the contact form
 
