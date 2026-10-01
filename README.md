@@ -39,6 +39,8 @@ GitHub Pages rebuilds the site from the `master` branch within a minute or two (
 2. To link a cross-post, fill in `crosspost_url` and `crosspost_name` (for example `LessWrong`). Otherwise delete those two lines.
 3. In `_config.yml`, set `show_blog: true`. This adds *Writing* to the menu.
 
+**Link-only posts.** For a post whose full text lives on Substack, add `external_url:` (and optionally `external_name:`) to the header and keep the body to a sentence or two. On the Writing page the title links straight to Substack, and the post's own page shows a "Read it on Substack" button. `_posts/2026-10-01-launching-robertson-on-ai.md` is an example.
+
 Posts appear at `/blog/` and in an RSS feed at `/feed.xml`, which Substack and other readers can import.
 
 ## Preview locally (optional)

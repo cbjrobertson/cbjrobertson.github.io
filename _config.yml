@@ -15,7 +15,7 @@ baseurl: ""
 formspree_id: "xaenzdkb"
 
 # Blog: set to true once you have written your first post (see README.md).
-show_blog: false
+show_blog: true
 
 cv_file: /assets/cv/Robertson_CV.pdf
 

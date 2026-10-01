@@ -14,7 +14,7 @@ description: Essays and notes by Cole Robertson.
     <li>
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%-d %b %Y' }}</time>
       <div>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.external_url %}<a href="{{ post.external_url }}">{{ post.title }}</a> <span class="ext">on {{ post.external_name | default: 'Substack' }}</span>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}
         {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
       </div>
     </li>

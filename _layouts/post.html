@@ -12,5 +12,8 @@ nav: blog
   </header>
   <div class="prose">
 {{ content }}
+{% if page.external_url %}
+    <p><a class="button" href="{{ page.external_url }}">Read it on {{ page.external_name | default: 'Substack' }}</a></p>
+{% endif %}
   </div>
 </article>

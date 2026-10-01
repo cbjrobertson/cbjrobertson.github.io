@@ -250,6 +250,7 @@ p { margin: 0 0 1em; }
 .post-list time { font-family: var(--sans); font-size: 0.875rem; color: var(--muted); padding-top: 0.2em; }
 .post-list a { font-size: 1.25rem; }
 .post-list p { margin: 0.25rem 0 0; color: var(--muted); }
+.post-list .ext { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
 .post .meta { font-family: var(--sans); font-size: 0.9rem; color: var(--muted); margin-top: 0.75rem; }
 .post .prose { margin-top: 2.5rem; }
 .post .prose h2 { margin: 2rem 0 0.75rem; }
