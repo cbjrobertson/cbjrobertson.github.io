@@ -22,6 +22,7 @@
       <a href="{{ '/research/' | relative_url }}"{% if page.nav == 'research' %} aria-current="page"{% endif %}>Research</a>
       <a href="{{ '/companies/' | relative_url }}"{% if page.nav == 'companies' %} aria-current="page"{% endif %}>Companies</a>
       {% if site.show_blog %}<a href="{{ '/blog/' | relative_url }}"{% if page.nav == 'blog' %} aria-current="page"{% endif %}>Writing</a>{% endif %}
+      <a href="{{ '/climbing/' | relative_url }}"{% if page.nav == 'climbing' %} aria-current="page"{% endif %}>Climbing</a>
       <a href="{{ '/contact/' | relative_url }}"{% if page.nav == 'contact' %} aria-current="page"{% endif %}>Contact</a>
       <a href="{{ site.cv_file | relative_url }}">CV</a>
     </nav>
@@ -37,7 +38,6 @@
       <a href="{{ site.links.scholar }}">Google Scholar</a>
       <a href="{{ site.links.github }}">GitHub</a>
       <a href="{{ site.links.linkedin }}">LinkedIn</a>
-      <a href="{{ '/climbing/' | relative_url }}">Climbing</a>
     </p>
   </footer>
 </body>
