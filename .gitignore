@@ -140,8 +140,12 @@ Gemfile.lock
 vendor/
 .DS_Store
 
-
+# tex build files
 assets/cv/*.aux
 assets/cv/*.out
 assets/cv/*.synctex.gz
 assets/cv/*.tex
+
+# IDEs and editors
+# JetBrains IDEs
+.idea/
