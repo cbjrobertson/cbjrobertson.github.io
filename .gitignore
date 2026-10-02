@@ -139,3 +139,9 @@ _site/
 Gemfile.lock
 vendor/
 .DS_Store
+
+
+assets/cv/*.aux
+assets/cv/*.out
+assets/cv/*.synctex.gz
+assets/cv/*.tex
